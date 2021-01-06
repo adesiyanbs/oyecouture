@@ -1,0 +1,284 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.bodyh2{
+    font-size: 65px;
+    text-align: center;
+    margin-top: 4%;
+}
+body p{
+    font-size: 14px;
+    text-align: center;
+    margin-top: -7px;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+header ul{
+    display: flex;
+    float: right;
+}
+header ul li{
+    font-size: 17px;
+    margin-right: 35px;
+    list-style: none;
+    transition: transform .2s;
+    cursor: pointer;
+}
+header ul li:hover{
+    transform: scale(1.04);
+}
+header ul li:active{
+    color: white;
+    background-color: black;
+    font-size: 13px;
+    padding-top: 3px;
+}
+ #display{
+    margin-top: 50px;
+    width: 100%;
+    height: inherit;
+    
+}
+.dis-container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.dis_div{
+    background: black;
+    width: 400px;
+    height: 70vh;
+    margin-right: 1%;
+    margin-left: 1%;
+    margin-bottom: 2%;
+    /* color: white; */
+    background-image: url(../images/Senators/face.jpg);
+    background-size: 100%;
+    transition: transform .2s ease;
+    cursor: pointer;
+    border:none;
+}
+.dis_div:hover{
+    transform: scale(1.05);
+}
+.dis_div2{
+    background: black;
+    width: 400px;
+    height: 70vh;
+    margin-right: 1%;
+    margin-left: 1%;
+    margin-bottom: 2%;
+    background-image: url(../images/Agbada/face.jpg);
+    background-size: 120%;
+    cursor: pointer;
+    transition: transform .2s ease;
+    border:none;
+}
+.dis_div2:hover{
+    transform: scale(1.05);
+}
+.dis_div3{
+    background: black;
+    width: 400px;
+    height: 70vh;
+    margin-right: 1%;
+    margin-left: 1%;
+    margin-bottom: 2%;
+    background-image: url(../images/Suits/face.jpg);
+    background-size: 100%;
+    cursor: pointer;
+    transition: transform .2s ease;
+    border:none;
+}
+
+.dis_div3:hover{
+    transform: scale(1.05);
+
+}
+.dis_div4{
+    background: black;
+    width: 400px;
+    height: 70vh;
+    margin-right: 1%;
+    margin-left: 1%;
+    margin-bottom: 2%;
+    background-image: url(../images/ShirtsandPants/face.jpg);
+    background-size: 100%;
+    cursor: pointer;
+    transition: transform .2s ease;
+    border:none;
+    
+}
+.dis_div4:hover{
+    transform: scale(1.05);
+
+}
+.div-text{
+    width: 100px;
+    height: 20px;
+    background: white;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 14px;
+    text-align: center;
+    font-weight: lighter;
+}
+footer{
+    font-size: 11px;
+    
+    text-align: center;
+    margin-right: 20px;
+}
+
+@media only screen 
+and (max-width: 414px){
+    header{
+        padding-top: 30px;
+    }
+    header ul{
+        margin-top:50px;
+        float: initial;
+        width: 80%;
+        padding-left: 15%;
+        margin: auto;
+    }    
+    .dis-container{
+        grid-template-columns: repeat(1, 1fr);
+        padding-left: 11px;
+    }
+    .dis_div{
+        width: 350px;
+        background-size: 110%;
+    }
+    .dis_div2{
+        width: 350px;
+        background-size: 140%;
+
+    }
+    .dis_div3{
+        width: 350px;
+        background-size: 105%;
+    }
+    .dis_div4{
+        width: 350px;
+        background-size: 105%;
+        
+    }
+    
+}
+#show{
+    background: black;
+    width: 100%;
+    height: 70vh;
+    padding-top: 50px;
+    margin-top: 50px;
+}
+.show_container{
+    width: 90%;
+    margin: auto;
+    height: 100%;
+    /* background: white; */
+    display: flex;
+    justify-content: space-between;
+    /* padding-top: 10px; */
+    /* padding-left: 20px; */
+    /* padding-right: 20px; */
+}
+.show_left{
+    width: 40%;
+    height: 90%;
+    background: white;
+    margin-right: 30px;
+    padding-top: 30px;
+    text-align: center;
+}
+.show_right{
+    width: 80%;
+    height: 90%;
+    background: white;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.show_left h2{
+    width: 200px;
+    height: 35px;
+    margin: auto;
+    border: 2px solid black;
+    margin-bottom: 20px;
+}
+.show_left div{
+    width: 80%;
+    height: 75%;
+    margin: auto;
+    /* background: blue; */
+    background-size: 100%;
+    background-image: url(../images/logo.jpg);
+}
+
+.show_right div{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    /* margin-right: 3px;
+    margin-left: 2px;
+    margin-top: 2px;
+    margin-bottom: 2px; */
+    transition: transform .2s ease;
+}
+.show_right div:hover{
+    transform: scale(2);
+}
+.show_right div:nth-child(1){
+    background-image: url(../images/show1.jpg);
+    background-size: 100%;
+}
+.show_right div:nth-child(2){
+    background-image: url(../images/show2n.jpg);
+    background-size: 100%;
+}.show_right div:nth-child(3){
+    background-image: url(../images/show3.jpg);
+    background-size: 100%;
+}.show_right div:nth-child(4){
+    background-image: url(../images/show4.jpg);
+    background-size: 100%;
+}.show_right div:nth-child(5){
+    background-image: url(../images/show5n.jpg);
+    background-size: 100%;
+}.show_right div:nth-child(6){
+    background-image: url(../images/show6.jpg);
+    background-size: 100%;
+}.show_right div:nth-child(7){
+    background-image: url(../images/show7n.jpg);
+    background-size: 100%;
+}.show_right div:nth-child(8){
+    background-image: url(../images/show8.jpg);
+    background-size: 100%;
+}
+
+@media only screen 
+and (max-width: 412px){
+    #show{
+        height: inherit;
+    }
+    .show_container{
+        flex-direction: column;
+    }
+    .show_left{
+        width: 100%;
+        height: 350px;
+        margin-bottom: 50px;
+    }
+    .show_right{
+        grid-template-columns: repeat(1,1fr);
+        width: 100%;
+        height: 300vh;
+    }
+    .show_right div:hover{
+        transform: scale(1.3);
+    }
+}

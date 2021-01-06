@@ -1,0 +1,117 @@
+#senate{
+    width: 100%;
+    height: inherit;
+    /* background-color: black; */
+    margin-top: 100px;
+}
+.sen_container{
+    width: 99%;
+    height: 300vh;
+    /* background: red; */
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.sen_container div{
+    /* margin-right: 20px;
+    margin-bottom: 30px; */
+    width: 90%;
+    height: 90%;
+    background: orange;
+    transition: transform .2 ease;
+}
+.sen_container div:hover{
+    transform: scale(1.5);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.sen_container div:nth-child(1){
+    background-image:url(../images/Senators/1fe4090bc56f4b21b9b49acefc65c3a3.jpg) ;
+    background-size: 100%;
+}
+.sen_container div:nth-child(2){
+    background-image:url(../images/Senators/1bc0c134da2d4bad8891afedab1a194c.jpg) ;
+    background-size: 100%;
+}.sen_container div:nth-child(3){
+    background-image:url(../images/Senators/3d61436c599440d592d3abb926c4d38b.jpg) ;
+    background-size: 100%;
+}.sen_container div:nth-child(4){
+    background-image:url(../images/Senators/5e38af7f780740949ad26e3e115629cc.jpg) ;
+    background-size: 100%;
+}.sen_container div:nth-child(5){
+    background-image:url(../images/Senators/74db4c8486d94700aedb6a107b0db027.jpg);
+    background-size: 100%;
+}.sen_container div:nth-child(6){
+    background-image:url(../images/Senators/8a5222c331a944098611ee13007054e6.jpg) ;
+    background-size: 100%;
+}.sen_container div:nth-child(7){
+    background-image:url(../images/Senators/8cdcf766904942b2b807d6201803ebc9.jpg) ;
+    background-size: 100%;
+}.sen_container div:nth-child(8){
+    background-image:url(../images/Senators/92dd7f0705d040b491ce32d9e241c60a.jpg) ;
+    background-size: 100%;
+}.sen_container div:nth-child(9){
+    background-image:url(../images/Senators/9d39aad2895d4c76bb4ab2b8d067168c.jpg) ;
+    background-size: 100%;
+}
+.sen_container div:nth-child(10){
+    background-image:url(../images/Senators/a5cddfb7322548aaba06fcf9b18eaeae.jpg) ;
+    background-size: 100%;
+}.sen_container div:nth-child(11){
+    background-image:url(../images/Senators/b3b91424a4a44b0d983b98d099178189.jpg) ;
+    background-size: 100%;
+}.sen_container div:nth-child(12){
+    background-image:url(../images/Senators/d39eca48341a426091ad49751d42ab44.jpg) ;
+    background-size: 100%;
+}.sen_container div:nth-child(13){
+    background-image:url(../images/Senators/dbc2271aea414f91a0bf00c6fc783128.jpg) ;
+    background-size: 100%;
+}.sen_container div:nth-child(14){
+    background-image:url(../images/Senators/e4908672e58d4c3d90676b890a2e8e95.jpg) ;
+    background-size: 100%;
+}.sen_container div:nth-child(15){
+    background-image:url(../images/Senators/face.jpg) ;
+    background-size: 100%;
+}.sen_container div:nth-child(16){
+    background-image:url(../images/Senators/3a2d910a88e648c9afc14230f41e6afd.jpg) ;
+    background-size: 100%;
+}.sen_container div:nth-child(17){
+    background-image:url(../images/Senators/6055598ca1c446adaa038dc2cdf4eaec.jpg) ;
+    background-size: 100%;
+}.sen_container div:nth-child(18){
+    background-image:url(../images/Senators/49260e15c15e42a9917c9665d5117d16.jpg) ;
+    background-size: 100%;
+}.sen_container div:nth-child(19){
+    background-image:url(../images/Senators/b3b91424a4a44b0d983b98d099178189.jpg) ;
+    background-size: 100%;
+}.sen_container div:nth-child(20){
+    background-image:url(../images/Senators/a5cddfb7322548aaba06fcf9b18eaeae.jpg) ;
+    background-size: 100%;
+}.sen_container div:nth-child(21){
+    background-image:url(../images/Senators/8a5222c331a944098611ee13007054e6.jpg) ;
+    background-size: 100%;
+}
+h3{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 100px;
+    margin-bottom: -80px;
+}
+
+@media only screen 
+and (max-width: 412px){
+    .sen_container{
+        grid-template-columns: repeat(1,1fr);
+        width: 92%;
+        height: 1400vh;
+        padding-top: 20px;
+        /* padding-left: 20px; */
+        margin-left: 29px;
+    }
+    .sen_container div{
+        width: 92%;
+    }
+    .sen_container div:hover{
+        transform: scale(1.2);
+    }
+}

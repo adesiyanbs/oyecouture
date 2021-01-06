@@ -1,0 +1,117 @@
+#catalogue{
+    width: 100%;
+    height: inherit;
+    /* background-color: black; */
+    margin-top: 110px;
+}
+.cat_container{
+    width: 99%;
+    height: 110vh;
+    /* background: red; */
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+.cat_container div{
+    /* margin-right: 20px;
+    margin-bottom: 30px; */
+    width: 90%;
+    height: 90%;
+    /* background: orange; */
+    transition: transform .2 ease;
+}
+.cat_container div:hover{
+    width: 80%;
+    height: 80%;
+    transform: scale(1.8);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.cat_container div:nth-child(1){
+    background-image:url(../images/Suits/suits1.jpg) ;
+    background-size: 110%;
+}
+.cat_container div:nth-child(2){
+    background-image:url(../images/Suits/suits2.jpg) ;
+    background-size: 110%;
+}.cat_container div:nth-child(3){
+    background-image:url(../images/Suits/suits3.jpg) ;
+    background-size: 110%;
+}.cat_container div:nth-child(4){
+    background-image:url(../images/Suits/suits4.jpg) ;
+    background-size: 115%;
+}.cat_container div:nth-child(5){
+    background-image:url(../images/Suits/suits5.jpg);
+    background-size: 110%;
+}.cat_container div:nth-child(6){
+    background-image:url(../images/Suits/suits6.jpg) ;
+    background-size: 110%;
+}.cat_container div:nth-child(7){
+    background-image:url(../images/Suits/suits7.jpg) ;
+    background-size: 110%;
+}.cat_container div:nth-child(8){
+    background-image:url(../images/Suits/face.jpg) ;
+    background-size: 110%;
+}.cat_container div:nth-child(9){
+    background-image:url(../images/show2n.jpg) ;
+    background-size: 110%;
+}
+h3{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 100px;
+    margin-bottom: -80px;
+}
+@media only screen 
+and (max-width: 412px){
+    .cat_container{
+        grid-template-columns: repeat(1, 1fr);
+        width: 90%;
+        height: 600vh;
+        margin-left: 35px;
+    }
+    .cat_container div:hover{
+        transform: scale(1.2);
+    }
+    
+}
+#others{
+    margin-top: 70px;
+    width: 100%;
+    
+}
+.others_container{
+    display: flex;
+    float: right;
+    margin-right: 50px;
+}
+.others_container button{
+    margin-right: 10px;
+    width: 100px;
+    background: black;
+    color: white;
+    height: 20px;
+    text-align: center;
+    font-size: 12px;
+    outline: none;
+    cursor: pointer;
+    font-weight: lighter;
+    border: none;
+    border-radius: 26px;
+    transition: transform .2s ;
+}
+.others_container button:hover{
+    transform: scale(1.08);
+}
+
+@media only screen 
+and (max-width: 412px){
+    .others_container{
+        margin-top: 10px;
+        margin-right: 10px;
+    }
+    .others_container button{
+        margin-right: 10px;
+        
+    }
+}
