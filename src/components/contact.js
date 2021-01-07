@@ -24,7 +24,7 @@ function Contact() {
             <section id="contact">
                 <div class="con_container">
                     <div className="othersi">
-                        <img src={location}alt="location"/>
+                        <img src={location}alt="location" alt=""/>
                         <h1>Address</h1>
                         <p>
                             No.24, <br/>
@@ -37,11 +37,11 @@ function Contact() {
                     <div className="otherside">
                         <h1></h1>
                         <p>
-                           <img src={number}/> 0000000000 <br/>
+                           <img src={number} alt=""/> 0000000000 <br/>
                             f: @oyecouture <br/>
                             i: @oyecouture <br/>
                             t: @oyecouture <br/>
-                            <img src={email}/>oyecouture@mail.com
+                            <img src={email} alt=""/>oyecouture@mail.com
                         </p>
                     </div>
                 </div>
