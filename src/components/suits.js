@@ -22,7 +22,7 @@ function Suits() {
             <section id="others">
                 <div className="others_container">
                     <Link to="/senators"><button>senators</button></Link>
-                    <Link to=""><button>agbadas</button></Link>
+                    <Link to="/agbada"><button>agbadas</button></Link>
                 </div>
             </section>
             <section id="catalogue">

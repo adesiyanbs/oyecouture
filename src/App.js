@@ -1,6 +1,7 @@
 import React from 'react'
 import {BrowserRouter, Switch, Route} from 'react-router-dom'
 import About from './components/about';
+import Agbadas from './components/agbada';
 import Contact from './components/contact';
 import Landing from './components/landing'
 import Senators from './components/senators';
@@ -16,6 +17,7 @@ function App() {
             <Route path='/contact' component={Contact} ></Route>
             <Route path='/suits' component={Suits}></Route>
             <Route path='/senators' component={Senators}></Route>
+            <Route path='/agbada' component={Agbadas}></Route>
         </Switch>
     </div>
   );

@@ -1,0 +1,52 @@
+#agb{
+    width: 100%;
+    height: inherit;
+    /* background-color: black; */
+    margin-top: 100px;
+}
+.agb_container{
+    width: 99%;
+    height: 60vh;
+    /* background: red; */
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.agb_container div{
+    /* margin-right: 20px;
+    margin-bottom: 30px; */
+    width: 90%;
+    height: 90%;
+    background: orange;
+    transition: transform .2 ease;
+}
+.agb_container div:hover{
+    transform: scale(1.5);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.agb_container div:nth-child(1){
+    background-image:url(../images/Agbada/face.jpg) ;
+    background-size: 125%;
+}
+.agb_container div:nth-child(2){
+    background-image:url(../images/Agbada/a1.jpg) ;
+    background-size: 100%;
+}.agb_container div:nth-child(3){
+    background-image:url(../images/Agbada/a2.jpg) ;
+    background-size: 125%;
+}.agb_container div:nth-child(4){
+    background-image:url(../images/Agbada/a3.jpg) ;
+    background-size: 100%;
+}
+@media only screen 
+and (max-width:412px){
+    .agb_container{
+        grid-template-columns: repeat(1, 1fr);        
+        height: 250vh;
+        width: 90%;
+        margin-left: 35px;
+        padding-top: 10px;
+    }
+
+}

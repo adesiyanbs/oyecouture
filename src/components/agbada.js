@@ -1,11 +1,11 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
 import '../styles/landing.css';
-import '../styles/senators.css'
+import '../styles/agbada.css'
 
 
 
-function Senators() {
+function Agbadas() {
     return (
         <div>
             <h2 className="bodyh2">oyecouture</h2>
@@ -19,36 +19,19 @@ function Senators() {
                     </ul>
                 </header>
             </section>
-            <h3>SENATORS</h3>
+            <h3>AGBADAS</h3>
             <section id="others">
                 <div className="others_container">
                     <Link to="/suits"><button>suits</button></Link>
-                    <Link to="/agbada"><button>agbadas</button></Link>
+                    <Link to="/senators"><button>senator</button></Link>
                 </div>
             </section>
-            <section id="senate">
-                <div className="sen_container">
+            <section id="agb">
+                <div className="agb_container">
                     <div></div>
                     <div></div>
                     <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    
+                    <div></div>     
                 </div>
             </section>
             <footer>Copyright oyecouture 2020 </footer>
@@ -58,4 +41,4 @@ function Senators() {
 
 }
 
-export default Senators
+export default Agbadas

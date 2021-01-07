@@ -24,12 +24,12 @@ function Landing() {
 
                         </div>
                     </Link>
-                    <a href="#">
+                    <Link to='/agbada'>
                         <div className="dis_div2">
                             <h3 className="div-text">agbada</h3>
 
                         </div>
-                    </a>
+                    </Link>
                     <Link to="/Suits">
                         <div className="dis_div3">
                             <h3 className="div-text">suits</h3>
