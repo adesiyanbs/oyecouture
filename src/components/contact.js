@@ -24,7 +24,7 @@ function Contact() {
             <section id="contact">
                 <div class="con_container">
                     <div className="othersi">
-                        <img src={location}alt="loc" alt=""/>
+                        <img src={location}alt="loc"/>
                         <h1>Address</h1>
                         <p>
                             No.24, <br/>
