@@ -8,6 +8,8 @@ import '../styles/senators.css'
 function Senators() {
     return (
         <div>
+            <div className="logoplace"></div>
+
             <h2 className="bodyh2">oyecouture</h2>
             <p>BESPOKE</p>
             <section id="top">
@@ -51,6 +53,8 @@ function Senators() {
                     
                 </div>
             </section>
+            <div className="logoplace"></div>
+
             <footer>Copyright oyecouture 2020 </footer>
             
         </div>

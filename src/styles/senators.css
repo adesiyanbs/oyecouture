@@ -97,21 +97,44 @@ h3{
     margin-top: 100px;
     margin-bottom: -80px;
 }
-
 @media only screen 
-and (max-width: 412px){
+and (width: 411px)
+{
+    .sen_container div {
+        width: 70% !important;
+    }
+    /* .sen_container{
+        margin-left: 55px !important;
+    } */
+    
+}
+@media only screen 
+and (max-width: 480px){
     .sen_container{
         grid-template-columns: repeat(1,1fr);
         width: 92%;
         height: 1400vh;
         padding-top: 20px;
         /* padding-left: 20px; */
-        margin-left: 29px;
+        margin-left: 30px;
     }
     .sen_container div{
         width: 92%;
     }
     .sen_container div:hover{
         transform: scale(1.2);
+    }
+}
+
+@media only screen 
+and (width: 480px){
+    #senate{
+        margin-top: 50px;
+    }
+    .sen_container{
+        margin-left: 37px;
+    }
+    .sen_container div{
+        width: 92%;
     }
 }

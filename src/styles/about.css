@@ -13,9 +13,16 @@
 }
 
 @media only screen 
-and (max-width:412px){
+and (max-width:480px){
     .abt-container{
         width: 130%;
         margin-left: -30px;
+    }
+}
+@media only screen 
+and (max-width: 480px){
+    .abt-container{
+        width: 105% ;
+        margin-left: initial;
     }
 }

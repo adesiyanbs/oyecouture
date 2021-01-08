@@ -7,6 +7,8 @@ import '../styles/about.css';
 function About() {
     return (
         <div>
+            <div className="logoplace"></div>
+
             <h2 className="bodyh2">oyecouture</h2>
             <p>BESPOKE</p>
             <section id="top">
@@ -37,6 +39,8 @@ function About() {
             </p>
                 </div>
             </section>
+            <div className="logoplace"></div>
+
             <footer>Copyright oyecouture 2020 </footer>
 
 

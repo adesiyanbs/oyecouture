@@ -40,7 +40,7 @@
     background-size: 100%;
 }
 @media only screen 
-and (max-width:412px){
+and (max-width:480px){
     .agb_container{
         grid-template-columns: repeat(1, 1fr);        
         height: 250vh;
@@ -49,4 +49,10 @@ and (max-width:412px){
         padding-top: 10px;
     }
 
+}
+@media only screen 
+and (max-width: 480px){
+    .agb_container{
+        margin-left: 47px;
+    }
 }

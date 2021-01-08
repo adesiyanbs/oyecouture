@@ -8,6 +8,8 @@ import '../styles/agbada.css'
 function Agbadas() {
     return (
         <div>
+            <div className="logoplace"></div>
+
             <h2 className="bodyh2">oyecouture</h2>
             <p>BESPOKE</p>
             <section id="top">
@@ -34,6 +36,8 @@ function Agbadas() {
                     <div></div>     
                 </div>
             </section>
+            <div className="logoplace"></div>
+
             <footer>Copyright oyecouture 2020 </footer>
             
         </div>

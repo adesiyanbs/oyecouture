@@ -62,7 +62,7 @@
     background-size: 100%;
 }
 @media only screen 
-and (max-width: 412px){
+and (max-width: 480px){
     
     .con_container{
         display: block;
@@ -96,5 +96,12 @@ and (max-width: 412px){
     .show-container div{
         width: 300px;
         margin-left: 39px;
+    }
+}
+@media only screen 
+and (max-width: 480px){
+    .show-container div{
+        width: 90%;
+        margin-left: 25px;
     }
 }

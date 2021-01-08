@@ -7,6 +7,8 @@ import '../styles/cat.css'
 function Suits() {
     return (
         <div>
+            <div className="logoplace"></div>
+
             <h2 className="bodyh2">oyecouture</h2>
             <p>BESPOKE</p>
             <section id="top">
@@ -38,6 +40,8 @@ function Suits() {
                     <div></div>
                 </div>
             </section>
+            <div className="logoplace"></div>
+
             <footer>Copyright oyecouture 2020 </footer>
             
         </div>
