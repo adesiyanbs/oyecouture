@@ -67,7 +67,7 @@ header ul li:active{
     /* color: white; */
     background-image: url(../images/Senators/face.jpg);
     background-size: 100%;
-    transition: transform .2s ease;
+    transition: transform .7xs ease;
     cursor: pointer;
     border:none;
 }
@@ -84,7 +84,7 @@ header ul li:active{
     background-image: url(../images/Agbada/face.jpg);
     background-size: 120%;
     cursor: pointer;
-    transition: transform .2s ease;
+    transition: transform .7s ease;
     border:none;
 }
 .dis_div2:hover{
@@ -100,7 +100,7 @@ header ul li:active{
     background-image: url(../images/Suits/face.jpg);
     background-size: 100%;
     cursor: pointer;
-    transition: transform .2s ease;
+    transition: transform .7s ease;
     border:none;
 }
 
@@ -274,9 +274,21 @@ and (max-width: 414px){
     background-image: url(../images/show8.jpg);
     background-size: 100%;
 }
+@media only screen 
+and (width:360px){
+    .dis_div{
+        margin-left:-5px;
+    }
+    .dis_div2{
+        margin-left:-5px;
+    }
+    .dis_div3{
+        margin-left:-5px;
+    }
+}
 
 @media only screen 
-and (max-width: 412px){
+and (max-width: 480px){
     #show{
         height: inherit;
     }
@@ -316,7 +328,7 @@ and (max-width: 412px){
     .dis_div{
         width: 90%;
         background-size: 120%;
-        height: 60vh;
+        height: 40vh;
         margin-left:23px ;
     }
     .dis_div2{
@@ -353,4 +365,101 @@ and (width:320px){
     .bodyh2{
         font-size: 35px;
     }
+    header ul{
+        float: initial;
+        margin-left: 3px;
+    }
+    .dis_div{
+        width: 95%;
+        /* margin-right: -60px; */
+    }
+    .dis_div2{
+        width: 95%;
+        /* margin-right: -60px; */
+    }
+    .dis_div3{
+        width: 95%;
+        /* margin-right: -60px; */
+    }
+}
+@media only screen 
+and (width:414px){
+    .dis_div{
+        width: 96%;
+    }
+    .dis_div2{
+        width: 96%;
+        
+    }
+    .dis_div3{
+        width: 96%;
+        
+    }
+    
+}
+@media only screen 
+and (width:375px){
+    .dis_div{
+        background-size: 120%;
+        color: pink;
+    }
+}
+@media only screen 
+and (min-width:416px) and (max-width:1024px){
+    .logoplace{
+        width: 100%;
+        background-size: 45%;
+        background-position: top;
+    }
+    .bodyh2{
+        width: 300px;
+        /* background: blue; */
+        text-align: center;
+        margin: auto;
+    }
+    .dis-container{
+        grid-template-columns: repeat(2,1fr);
+        /* margin-left: 69px; */
+        /* padding: 11px; */
+        width: 100%;
+    }
+    .dis_div{
+        width: 90%;
+        background-size: 120%;
+        height: 50vh;
+        margin-left:23px ;
+    }
+    .dis_div2{
+        width: 90%;
+        margin-left:23px ;
+        background-size: 150%;
+        height: 50vh;
+    }
+    .dis_div3{
+        width: 90%;
+        margin-left:23px ;
+        background-size: 120%;
+        height: 50vh;
+        /* margin-top: -20px; */
+    }
+    .show_container{
+        flex-direction: column;
+    }
+    .show_container div:hover{
+        transform:  scale(1.2);
+    }
+    .show_left{
+        width: 100%;
+        height: 700px;
+        margin-bottom: 50px;
+    }
+    .show_right{
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+        height: 600vh;
+    }
+    #show{
+        height: inherit;
+    }
+
 }

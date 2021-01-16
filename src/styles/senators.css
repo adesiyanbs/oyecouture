@@ -138,3 +138,12 @@ and (width: 480px){
         width: 92%;
     }
 }
+@media only screen 
+and (min-width:416px) and (max-width:1024px){
+    .sen_container{
+        grid-template-columns: repeat(2, 1fr);
+        height: 450vh;
+        margin-left: 10px;
+        padding-left: 35px;
+    }
+}

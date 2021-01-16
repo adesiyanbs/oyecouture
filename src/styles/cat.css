@@ -63,12 +63,20 @@ h3{
     margin-bottom: -80px;
 }
 @media only screen 
+and (width:360px){
+    .cat_container{
+        /* margin: initial; */
+        margin-left: 47px;
+        width: 88%;
+    }
+}
+@media only screen 
 and (max-width: 480px){
     .cat_container{
         grid-template-columns: repeat(1, 1fr);
         width: 90%;
         height: 600vh;
-        margin-left: 35px;
+        /* margin-left: 35px; */
 
     }
     .cat_container div:hover{
@@ -80,7 +88,7 @@ and (max-width: 480px){
 @media only screen 
 and (max-width: 480px){
     .cat_container{
-        margin-left: 47px;
+        margin-left: 35px;
     }
 }
 #others{
@@ -122,4 +130,24 @@ and (max-width: 480px){
         margin-right: 10px;
         
     }
+}
+@media only screen 
+and (width: 320px){
+    .cat_container{
+        width: 85%;
+    }
+    .cat_container div{
+        margin-left: -9px;
+    }
+    .cat_container div:hover{
+        margin-left: 5px;
+    }
+}
+@media only screen 
+and (min-width:416px) and (max-width:1024px){
+.cat_container{
+    grid-template-columns: repeat(2,1fr);
+    height: 250vh;
+    padding-left: 40px;
+}
 }

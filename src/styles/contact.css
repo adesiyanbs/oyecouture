@@ -105,3 +105,16 @@ and (max-width: 480px){
         margin-left: 25px;
     }
 }
+@media only screen 
+and (width: 320px){
+    .show-container div{
+        width: 90%;
+        margin-left: 15px;
+    }
+}
+/* @media only screen 
+and (min-width:416px) and (max-width:1024px){
+    .show-container div{
+        margin-left: -10;
+    }
+} */
