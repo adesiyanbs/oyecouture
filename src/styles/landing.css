@@ -67,7 +67,7 @@ header ul li:active{
     /* color: white; */
     background-image: url(../images/Senators/face.jpg);
     background-size: 100%;
-    transition: transform .7xs ease;
+    transition: transform .7s ease;
     cursor: pointer;
     border:none;
 }
